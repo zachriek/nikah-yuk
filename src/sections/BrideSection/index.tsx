@@ -9,7 +9,7 @@ const BrideSection = () => {
           Dengan Rahmat Allah yang Maha Kuasa InsyaAllah kami akan melangsungkan pernikahan pada:
         </p>
         <h3 className="sm:text-[32px] text-[24px] text-center font-medium text-zinc-800 leading-tight my-6" data-aos="fade-down" data-aos-delay="800">
-          Senin, 20 Februari 2023
+          Minggu, 19 Februari 2023
         </h3>
         <p className="text-zinc-600 text-center sm:text-[18px]" data-aos="fade-down" data-aos-delay="1100">
           di Kediaman Mempelai Wanita
@@ -18,12 +18,12 @@ const BrideSection = () => {
           <div className="flex flex-1 flex-col items-center mb-12 sm:mb-0">
             <img src="./assets/images/groom.jpg" alt="groom" className="w-[250px] rounded-full mb-8" />
             <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight mb-2">Muhammad Zachrie Kurniawan</h5>
-            <p className="text-zinc-600 text-center">Putra Bapak Yanto dan Ibu Supri</p>
+            <p className="text-zinc-600 text-center">Putra Bapak Rudi dan Ibu Susanti</p>
           </div>
           <div className="flex flex-1 flex-col items-center">
             <img src="./assets/images/bride.jpg" alt="bride" className="w-[250px] rounded-full mb-8" />
-            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight mb-2">Rachmi Kurniati</h5>
-            <p className="text-zinc-600 text-center">Putra Bapak Yanto dan Ibu Supri</p>
+            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight mb-2">Nia Kurniati</h5>
+            <p className="text-zinc-600 text-center">Putra Bapak Budi dan Ibu Santi</p>
           </div>
         </div>
       </div>
