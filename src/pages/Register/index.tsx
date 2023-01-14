@@ -57,7 +57,7 @@ const Register = () => {
   }, [errors]);
 
   return (
-    <div className="w-full mx-auto md:w-1/2 lg:w-1/3 px-6 py-12 border border-zinc-400 shadow-xl">
+    <div className="w-full mx-auto md:w-1/2 lg:w-1/3 px-6 py-12 border bg-white border-zinc-400 shadow-xl">
       <h2 className="heading text-center mb-3">Daftar</h2>
       <p className="text mb-8">Selamat Datang!</p>
       <form onSubmit={handleSubmit}>
