@@ -9,7 +9,7 @@ const BrideSection = () => {
           Dengan Rahmat Allah yang Maha Kuasa InsyaAllah kami akan melangsungkan pernikahan pada:
         </p>
         <h3 className="sm:text-[32px] text-[24px] text-center font-medium text-zinc-800 leading-tight my-6" data-aos="fade-down" data-aos-delay="800">
-          Sabtu, 17 Desember 2022
+          Senin, 20 Februari 2023
         </h3>
         <p className="text-zinc-600 text-center sm:text-[18px]" data-aos="fade-down" data-aos-delay="1100">
           di Kediaman Mempelai Wanita

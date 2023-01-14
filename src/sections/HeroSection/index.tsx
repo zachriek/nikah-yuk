@@ -10,7 +10,7 @@ const HeroSection = () => {
           Akan Segera Melangsungkan Pernikahan Suci
         </p>
         <h3 className="sm:text-[32px] text-[24px] font-medium text-zinc-100 leading-tight" data-aos="fade-down" data-aos-delay="800">
-          Sabtu, 17 Desember 2022
+          Senin, 20 Februari 2023
         </h3>
       </div>
     </section>
