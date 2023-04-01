@@ -62,6 +62,6 @@ html {
     @apply text-red-600 text-sm;
   }
   .overlay {
-    @apply absolute top-0 left-0 w-full h-full bg-black/80;
+    @apply absolute top-0 left-0 w-full h-full bg-black/50;
   }
 }

@@ -63,7 +63,16 @@ const MessageModal = ({ isShowModal, setIsShowModal }: IProps) => {
           </div>
           <div className="form-group">
             <label htmlFor="body">Ucapan</label>
-            <textarea name="body" id="body" cols={30} rows={10} className="form-input w-full focus:ring-zinc-900" placeholder="Masukkan Nama" onChange={handleChange} value={formData.body}></textarea>
+            <textarea
+              name="body"
+              id="body"
+              cols={30}
+              rows={10}
+              className="form-input w-full focus:ring-zinc-900"
+              placeholder="Masukkan Ucapan"
+              onChange={handleChange}
+              value={formData.body}
+            ></textarea>
           </div>
           <div className="flex justify-center items-center mt-12 gap-x-3">
             <button type="button" className="btn btn-outline" onClick={() => setIsShowModal(false)}>

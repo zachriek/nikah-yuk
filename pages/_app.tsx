@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SWRConfig
       value={{
-        refreshInterval: 3000,
+        refreshInterval: 1000,
       }}
     >
       <Component {...pageProps} />
