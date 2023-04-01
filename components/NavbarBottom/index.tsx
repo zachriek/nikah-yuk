@@ -52,7 +52,7 @@ const NavbarBottom = () => {
   return (
     <nav className="w-full py-4 fixed bottom-0 left-0 bg-white border-t-[3px] border-t-zinc-200 z-[99] overflow-scroll">
       <div className="container h-full">
-        <ul className="h-full flex justify-center items-center gap-x-[50px]">
+        <ul className="h-full flex md:justify-center items-center gap-x-[50px]">
           {links.map((link, index) => (
             <li key={index}>
               <a
