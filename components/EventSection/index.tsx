@@ -9,7 +9,7 @@ const EventSection = () => {
           Jadwal Acara
         </h2>
         <p className="text-zinc-600 text-center sm:text-[18px] max-w-[750px] mx-auto" data-aos="fade-down" data-aos-delay="800">
-          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila bapak/ ibu/saudara/i berkenan hadir di acara Unduh Mantu putra putri kami.
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila bapak/ ibu/saudara/i berkenan hadir di acara Pernikahan putra putri kami.
         </p>
         <h3 className="text-[24px] text-center font-medium text-zinc-800 leading-tight my-6" data-aos="fade-down" data-aos-delay="1100">
           yang Insya Allah akan dilaksanakan pada:
