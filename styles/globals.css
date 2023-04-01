@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-zinc-900 !important;
+}
+
+@layer base {
+  body {
+    overflow-x: hidden;
+    @apply font-primary bg-texture;
+  }
+  .section {
+    @apply min-h-screen py-[100px];
+  }
+  .font-secondary {
+    font-family: 'Sacramento', cursive;
+  }
+  .heading {
+    @apply text-zinc-800 text-[24px] font-bold;
+  }
+  .text {
+    @apply text-zinc-800 text-center;
+  }
+  .navbar-brand {
+    @apply text-[24px] font-bold text-zinc-800 hover:text-zinc-900 transition-all;
+  }
+  .nav-link {
+    @apply text-zinc-800 hover:text-zinc-900 transition-all;
+  }
+  .btn {
+    @apply px-4 py-2.5 flex justify-center items-center shadow transition-all;
+  }
+  .btn-primary {
+    @apply bg-zinc-800 hover:bg-zinc-900 text-white;
+  }
+  .btn-outline {
+    @apply text-zinc-800 hover:text-white border border-zinc-800 hover:bg-zinc-900;
+  }
+  .btn-link {
+    @apply text-zinc-800 hover:text-zinc-900;
+  }
+  .form-group {
+    @apply flex flex-col gap-y-1 mb-5;
+  }
+  .invalid-message {
+    @apply text-red-600 text-sm;
+  }
+  .overlay {
+    @apply absolute top-0 left-0 w-full h-full bg-black/80;
+  }
+}
