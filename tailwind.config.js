@@ -13,7 +13,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/img_bg_1.jpg')",
+        hero: "url('/assets/images/img_bg_1.jpeg')",
         texture: "url('/assets/images/texture.png')",
       },
     },

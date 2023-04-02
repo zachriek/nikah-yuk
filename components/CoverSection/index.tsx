@@ -4,9 +4,10 @@ import { MdArrowDownward } from 'react-icons/md';
 interface Props {
   handlePlayMusic: () => void;
   handleOpen: () => void;
+  namaTamu: string | any;
 }
 
-const CoverSection = ({ handlePlayMusic, handleOpen }: Props) => {
+const CoverSection = ({ handlePlayMusic, handleOpen, namaTamu }: Props) => {
   const handleOpenInvitation = () => {
     document.body.classList.remove('overflow-hidden');
     handleOpen();
@@ -23,9 +24,12 @@ const CoverSection = ({ handlePlayMusic, handleOpen }: Props) => {
         <h3 className="sm:text-[32px] text-[24px] font-medium text-zinc-800 leading-tight mb-4" data-aos="fade-down">
           The Wedding of
         </h3>
-        <h1 className="sm:text-8xl text-6xl font-secondary text-zinc-800 leading-tight mb-6" data-aos="fade-down" data-aos-delay="300">
+        <h1 className="sm:text-8xl text-6xl font-secondary text-zinc-800 leading-tight" data-aos="fade-down" data-aos-delay="300">
           Ali & Zahra
         </h1>
+        <p>Kepada Yth.</p>
+        <p>Bapak/Ibu/Sahabat:</p>
+        <p className="mb-10 font-semibold capitalize">{namaTamu}</p>
         <button className="btn btn-primary" onClick={handleOpenInvitation} data-aos="fade-down" data-aos-delay="800">
           <MdArrowDownward />
           <span className="ml-2">Buka Undangan</span>

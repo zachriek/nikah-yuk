@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { AiFillGift } from 'react-icons/ai';
 import { FaHome, FaUserFriends } from 'react-icons/fa';
-import { MdEventNote, MdLocationOn, MdMessage, MdSecurity } from 'react-icons/md';
+import { MdEventNote, MdLocationOn, MdMessage, MdPhotoLibrary, MdSecurity } from 'react-icons/md';
 
 const links = [
   {
@@ -13,6 +13,11 @@ const links = [
     name: 'Mempelai',
     icon: <FaUserFriends />,
     href: '#mempelai',
+  },
+  {
+    name: 'Galeri',
+    icon: <MdPhotoLibrary />,
+    href: '#galeri',
   },
   {
     name: 'Acara',
