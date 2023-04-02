@@ -1,5 +1,4 @@
-import dynamic from 'next/dynamic';
-const Fancybox = dynamic(() => import('@/components/Fancybox'));
+import Image from 'next/image';
 
 const GallerySection = () => {
   return (
@@ -10,24 +9,7 @@ const GallerySection = () => {
         </h2>
         <div className="grid lg:grid-cols-3 grid-cols-2 gap-[50px] mt-12">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => (
-            <Fancybox
-              key={index}
-              options={{
-                Carousel: {
-                  infinite: false,
-                },
-              }}
-            >
-              <img
-                data-fancybox="gallery"
-                data-src={`/assets/images/gallery-${item}.jpeg`}
-                src={`/assets/images/gallery-${item}.jpeg`}
-                alt="gallery"
-                className="w-full cursor-pointer shadow"
-                data-aos="fade-down"
-                data-aos-delay={item * 300}
-              />
-            </Fancybox>
+            <Image key={index} src={`/assets/images/gallery-${item}.jpeg`} alt="gallery" width={0} height={0} sizes="100vw" className="w-full shadow" />
           ))}
         </div>
       </div>
