@@ -24,7 +24,7 @@ const CoverSection = ({ handlePlayMusic, handleOpen, namaTamu }: Props) => {
         <h3 className="sm:text-[32px] text-[24px] font-medium text-zinc-800 leading-tight mb-4" data-aos="fade-down">
           The Wedding of
         </h3>
-        <h1 className="sm:text-8xl text-6xl font-secondary text-zinc-800 leading-tight" data-aos="fade-down" data-aos-delay="300">
+        <h1 className="sm:text-8xl text-6xl font-secondary text-zinc-800 leading-tight mb-2" data-aos="fade-down" data-aos-delay="300">
           Ali & Zahra
         </h1>
         <p>Kepada Yth.</p>
