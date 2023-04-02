@@ -19,11 +19,15 @@ const BrideSection = () => {
         <div className="flex flex-col sm:flex-row justify-center mt-12" data-aos="fade-down" data-aos-delay="1500">
           <div className="flex flex-1 flex-col items-center mb-12 sm:mb-0">
             <Image src="/assets/images/groom.jpg" alt="groom" width={0} height={0} sizes="100vw" className="w-[250px] h-auto rounded-full mb-8" />
-            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight">Ali Akbar Afriyanto</h5>
+            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight mb-4">Ali Akbar Afriyanto S.Pd</h5>
+            <p className="text-zinc-700 font-medium text-center">Putra Keempat</p>
+            <p className="text-zinc-600 text-center">Bapak Selamet Heriyanto (Alm) dan Ibu Suminah (Alm)</p>
           </div>
           <div className="flex flex-1 flex-col items-center">
             <Image src="/assets/images/bride.jpg" alt="bride" width={0} height={0} sizes="100vw" className="w-[250px] h-auto rounded-full mb-8" />
-            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight">Mahdiyyah Zahra, Amd.Keb</h5>
+            <h5 className="text-4xl font-secondary text-center text-zinc-800 leading-tight mb-4">Mahdiyyah Zahra, Amd.Keb</h5>
+            <p className="text-zinc-700 font-medium text-center">Putri Pertama</p>
+            <p className="text-zinc-600 text-center">Bapak Irfan Sutojo dan Ibu Eliya Indrayana</p>
           </div>
         </div>
       </div>
