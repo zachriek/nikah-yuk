@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import dynamic from 'next/dynamic';
 import useSWR from 'swr';
 import { Pagination } from 'swiper';
@@ -8,7 +9,6 @@ const MessageModal = dynamic(() => import('@/components/MessageModal'));
 const Loading = dynamic(() => import('@/components/Loading'));
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { useState } from 'react';
 
 const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
