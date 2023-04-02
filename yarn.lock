@@ -2181,7 +2181,7 @@
   "resolved" "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-3.1.1.tgz"
   "version" "3.1.1"
 
-"styled-components@>= 2", "styled-components@>= 5.X":
+"styled-components@^5.3.9", "styled-components@>= 2", "styled-components@>= 5.X":
   "integrity" "sha512-Aj3kb13B75DQBo2oRwRa/APdB5rSmwUfN5exyarpX+x/tlM/rwZA2vVk2vQgVSP6WKaZJHWwiFrzgHt+CLtB4A=="
   "resolved" "https://registry.npmjs.org/styled-components/-/styled-components-5.3.9.tgz"
   "version" "5.3.9"

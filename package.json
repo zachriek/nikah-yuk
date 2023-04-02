@@ -15,6 +15,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
     "react-spring-lightbox": "^1.7.1",
+    "styled-components": "^5.3.9",
     "sweetalert2": "^11.7.3",
     "swiper": "^9.2.0",
     "swr": "^2.1.1"
