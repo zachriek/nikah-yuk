@@ -60,7 +60,7 @@ const GallerySection = () => {
         <h2 className="sm:text-6xl text-5xl font-secondary font-bold text-center text-zinc-800 leading-tight mb-4" data-aos="fade-down">
           Galeri Foto
         </h2>
-        {/* <div className="grid lg:grid-cols-3 grid-cols-2 gap-[50px] mt-12">
+        <div className="grid lg:grid-cols-3 grid-cols-2 gap-[50px] mt-12">
           {[1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => (
             <Image
               key={index}
@@ -76,7 +76,7 @@ const GallerySection = () => {
               }}
             />
           ))}
-        </div> */}
+        </div>
         <Lightbox
           isOpen={isOpen}
           onPrev={gotoPrevious}
