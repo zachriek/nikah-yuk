@@ -20,7 +20,7 @@ const EventSection = () => {
             date="30 April 2023"
             time="08.00 - Selesai"
             place="Bertempat di Kediaman Mempelai Wanita"
-            location="Perumahan Nusantara Blok B8 No. 34, Sukabumi, Bandar Lampung"
+            location="Perumahan Nusantara Blok B8 No.34, Sukabumi, Bandar Lampung"
             locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6"
             data-aos="fade-down"
           />
@@ -29,7 +29,7 @@ const EventSection = () => {
             date="30 April 2023"
             time="10.00 - Selesai"
             place="Bertempat di Kediaman Mempelai Wanita"
-            location="Perumahan Nusantara Blok B8 No. 34, Sukabumi, Bandar Lampung"
+            location="Perumahan Nusantara Blok B8 No.34, Sukabumi, Bandar Lampung"
             locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6"
             data-aos="fade-down"
           />
