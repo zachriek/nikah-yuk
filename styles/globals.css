@@ -23,6 +23,8 @@ html {
 @layer base {
   body {
     overflow-x: hidden;
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch;
     @apply font-primary bg-texture;
   }
   .section {
