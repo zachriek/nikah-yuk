@@ -15,8 +15,24 @@ const EventSection = () => {
           yang Insya Allah akan dilaksanakan pada:
         </h3>
         <div className="flex flex-wrap justify-center gap-x-10" data-aos="fade-down" data-aos-delay="1400">
-          <EventCard title="Akad Nikah" date="30 April 2023" time="08.00 - Selesai" locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6" data-aos="fade-down" />
-          <EventCard title="Resepsi Nikah" date="30 April 2023" time="10.00 - Selesai" locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6" data-aos="fade-down" />
+          <EventCard
+            title="Akad Nikah"
+            date="30 April 2023"
+            time="08.00 - Selesai"
+            place="Bertempat di Kediaman Mempelai Wanita"
+            location="Perumahan Nusantara Blok B8 No. 34, Sukabumi, Bandar Lampung"
+            locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6"
+            data-aos="fade-down"
+          />
+          <EventCard
+            title="Resepsi Nikah"
+            date="30 April 2023"
+            time="10.00 - Selesai"
+            place="Bertempat di Kediaman Mempelai Wanita"
+            location="Perumahan Nusantara Blok B8 No. 34, Sukabumi, Bandar Lampung"
+            locationHref="https://goo.gl/maps/SPNzBYszhqLiFmTZ6"
+            data-aos="fade-down"
+          />
         </div>
       </div>
     </section>

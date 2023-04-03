@@ -4,10 +4,12 @@ interface Props {
   title: string;
   date: string;
   time: string;
+  place: string;
+  location: string;
   locationHref: string;
 }
 
-const EventCard = ({ title, date, time, locationHref }: Props) => {
+const EventCard = ({ title, date, time, place, location, locationHref }: Props) => {
   return (
     <div className="w-full max-w-md bg-white mx-auto px-12 py-6 border border-zinc-300 border-t-[5px] border-t-zinc-800 shadow-xl mt-12">
       <h2 className="text-5xl font-secondary text-center text-zinc-800 leading-tight">{title}</h2>
@@ -22,8 +24,9 @@ const EventCard = ({ title, date, time, locationHref }: Props) => {
           <h5 className="font-medium text-zinc-800">{time}</h5>
         </div>
       </div>
-      <p className="text-zinc-600 text-center mt-8">Bertempat di Kediaman Mempelai Wanita</p>
-      <div className="flex justify-center mt-4">
+      <p className="text-zinc-600 text-center mt-8">{place}</p>
+      <p className="text-zinc-800 font-medium text-center mt-2">{location}</p>
+      <div className="flex justify-center mt-8">
         <a href={locationHref} className="btn btn-primary" target="_blank" rel="noreferrer noopener">
           <MdLocationOn className="text-white" />
           <span className="ml-2">Google Map</span>
